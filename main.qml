@@ -10,7 +10,7 @@ Window {
     visible: true
     width: 640
     height: 480
-    title: qsTr("Hello World")
+    title: qsTr("navbar_i3")
 
     Material.theme: Material.Light
     Material.accent: Sytlish.cola1
@@ -35,12 +35,12 @@ Window {
             TabButton {
                 font.pointSize: 14
                 text: "Hedef Seçim"
-                onClicked: runIt.run("/usr/bin/i3-msg [class=\"class_1_test\" instance=\"name_1_test\"] focus")
+                onClicked: runIt.run("/usr/bin/i3-msg [class=\"Mission_Control\" instance=\"mission_control\"] focus")
             }
             TabButton {
                 font.pointSize: 14
                 text: "Otonom Sürüş"
-                onClicked: runIt.run("/usr/bin/i3-msg [class=\"class_2_test\" instance=\"name_2_test\"] focus")
+                onClicked: runIt.run("/usr/bin/i3-msg [class=\"rviz2\" instance=\"rviz_volt\"] focus")
             }
         }
 
