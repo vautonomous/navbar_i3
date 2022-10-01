@@ -34,6 +34,7 @@ Window {
             Material.background: Sytlish.colp3
             TabButton {
                 font.pointSize: 14
+                font.bold: true
                 text: "Hedef Seçim"
                 onClicked: runIt.run("/usr/bin/i3-msg [class=\"Mission_Control\" instance=\"mission_control\"] focus")
             }

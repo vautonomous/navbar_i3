@@ -7,7 +7,7 @@ QtObject {
     property color colp2: "#b71c1c"
     property color colp3: "#b71c1c"
 
-    property color cola1: "#1b1b1b"
-    property color cola2: "#424242"
-    property color cola3: "#6d6d6d"
+    property color cola1: "#ffffff"
+    property color cola2: "#ffffff"
+    property color cola3: "#ffffff"
 }
