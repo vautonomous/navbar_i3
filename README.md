@@ -2,7 +2,7 @@
 
 ## Dependencies
 ```bash
-sudo apt install qt5-default \
-qml-module-qtquick-controls2
-qtcreator \
+sudo apt-get install qtbase5-dev \ 
+qtchooser qt5-qmake qtbase5-dev-tools \
+qml-module-qtquick-controls2 qtcreator
 ```
