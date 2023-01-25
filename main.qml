@@ -34,13 +34,13 @@ Window {
             Material.background: Sytlish.colp3
             TabButton {
                 font.pointSize: 14
-                font.bold: true
+                font.bold: false
                 text: "Hedef Seçim"
                 onClicked: runIt.run("/usr/bin/i3-msg [class=\"Mission_Control\" instance=\"mission_control\"] focus")
             }
             TabButton {
                 font.pointSize: 14
-                font.bold: true
+                font.bold: false
                 text: "Otonom Sürüş"
                 onClicked: runIt.run("/usr/bin/i3-msg [class=\"rviz2\" instance=\"rviz_volt\"] focus")
             }
